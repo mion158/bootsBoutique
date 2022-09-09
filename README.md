@@ -1,5 +1,7 @@
 # bootsBoutique
- spring boot databases and custom queries
+codecademy project
+
+ spring boot databases and custom queries 
  
 Boot class: BOOTS table
 - Integer id
