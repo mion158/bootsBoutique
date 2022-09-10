@@ -1,8 +1,8 @@
 # bootsBoutique
 codecademy assignment - Spring Boot databases and custom queries 
 
-👢👢👢
-Made a "Boot" class (i mean shoes, not the framework)- BOOTS table:
+
+Made a "Boot" class (👢 not the framework)- BOOTS table:
 - Integer id
 - BootType type
 - Float size
