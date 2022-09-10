@@ -1,9 +1,7 @@
 # bootsBoutique
-codecademy project
-
- spring boot databases and custom queries 
+codecademy assignment - Spring boot databases and custom queries 
  
-Boot class: BOOTS table
+Made a Boot class - BOOTS table:
 - Integer id
 - BootType type
 - Float size
