@@ -1,5 +1,5 @@
 # bootsBoutique
-codecademy assignment - Spring Boot databases and custom queries 
+codecademy assignment - H2 databases and custom queries 
 
 👢👢Boots inventory 👢👢
 
