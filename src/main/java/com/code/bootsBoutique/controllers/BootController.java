@@ -117,7 +117,7 @@ public class BootController {
 		} else if (Objects.nonNull(type)) {
 			if (Objects.nonNull(size) && Objects.nonNull(minQuantity)) {
 				// call the repository method that accepts a type, size, and minimum quantity
-				throw new QueryNotSupportedException("This query is not supported! Try a different combination of search parameters.");
+				return this.bootRepository.findByTypeAndSizeAndQuantityGreaterThan(type, size, minQuantity);
 			} else if (Objects.nonNull(size)) {
 				// call the repository method that accepts a type and a size
 				throw new QueryNotSupportedException("This query is not supported! Try a different combination of search parameters.");
