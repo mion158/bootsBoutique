@@ -16,4 +16,6 @@ public interface BootRepository extends CrudRepository<Boot, Integer>{
     public List<Boot> findByMaterialAndTypeAndSize(String material, BootType type, float size);
     public List<Boot> findByMaterialAndTypeAndQuantityGreaterThan(String material, BootType type, Integer minQuantity);
     public List<Boot> findByMaterialAndType(String material, BootType type);
+    public List<Boot> findByTypeAndSizeAndQuantityGreaterThan(BootType type, float size, Integer minQuantity);
+    public List<Boot> findByTypeAndSize(BootType type, float size);
 }
