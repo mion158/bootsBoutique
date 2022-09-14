@@ -123,7 +123,7 @@ public class BootController {
 				return this.bootRepository.findByTypeAndSize(type, size);
 			} else if (Objects.nonNull(minQuantity)) {
 				// call the repository method that accepts a type and a minimum quantity
-				throw new QueryNotSupportedException("This query is not supported! Try a different combination of search parameters.");
+				return this.bootRepository.findByTypeAndQuantityGreaterThan(type, minQuantity);
 			} else {
 				// call the repository method that accept only a type
 				return this.bootRepository.findByType(type);
