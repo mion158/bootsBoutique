@@ -1,6 +1,4 @@
 # bootsBoutique
-codecademy assignment - H2 databases and custom queries 
-
-👢👢Boots inventory db 👢👢 with Spring Boot 
+codecademy assignment 
 
 start on: localhost:4001
